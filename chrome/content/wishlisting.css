@@ -1,0 +1,11 @@
+#wlToolbarButton {
+	list-style-image: url(chrome://wishpot/content/24x24.png);
+}
+
+toolbar[iconsize="small"] #wlToolbarButton > .toolbarbutton-icon {
+	list-style-image: url(chrome://wishpot/content/16x16.png);
+}
+
+#wlStatusbarPanel image {
+	list-style-image: url(chrome://wishpot/content/16x16.png);
+}

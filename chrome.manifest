@@ -1,0 +1,4 @@
+content     wishpot    chrome/content/
+overlay chrome://browser/content/browser.xul chrome://wishpot/content/browserOverlay.xul
+overlay chrome://global/content/customizeToolbar.xul chrome://wishpot/content/customizeToolbarOverlay.xul
+overlay chrome://mozapps/content/extensions/extensions.xul chrome://wishpot/content/extensionsOverlay.xul

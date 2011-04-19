@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$qYswV2"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.5"
+                   em:maxVersion="3.*" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="{DE2EB073-84DF-46aa-9A76-7B54C75366FA}"
+                   em:version="1.1"
+                   em:type="2"
+                   em:name="Wishpot"
+                   em:description="'Add to Wishpot' button"
+                   em:creator="Wishpot"
+                   em:developer="Tom"
+                   em:homepageURL="http://www.wishpot.com/"
+                   em:iconURL="chrome://wishpot/content/32x32.png"
+                   em:optionsURL="chrome://wishpot/content/extensionsOverlay.xul"
+                   em:updateURL="http://www.wishpot.com/firefox/update.rdf"
+                   em:updateInfoURL="http://www.wishpot.com/"
+                   em:updateKey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPnl3K/fjeUrq6gPkNUxqj30qiKI2/bViTFJOyFtY67XjnctHJf+Ien3wm0JDyRFFzqU8oZr9V4PjIVto3fzVPF6KAbTWLKUeNtZAVT5KIwKIz0c29yICdDJmERR3bY1DMDxDcYXCo37NcCEu6N0uCwYqPtqQqSTyNU2GksscKvQIDAQAB">
+    <em:targetApplication RDF:resource="rdf:#$qYswV2"/>
+  </RDF:Description>
+</RDF:RDF>

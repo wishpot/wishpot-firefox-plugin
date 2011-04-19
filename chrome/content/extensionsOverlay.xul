@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+
+<prefwindow id="wlOptions" title="Wishpot" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<prefpane id="wlOptionsPane1" label="Wishpot Options">
+		<preferences>
+			<preference id="wlPrefMenuEnabled" name="extensions.wishpot.menu.enabled" type="bool"/>
+			<preference id="wlPrefToolbarEnabled" name="extensions.wishpot.toolbar.enabled" type="bool"/>
+			<preference id="wlPrefStatusbarEnabled" name="extensions.wishpot.statusbar.enabled" type="bool"/>
+		</preferences>
+		
+		<vbox flex="1">
+	        <groupbox>
+			<caption label="General"/>
+			<hbox>
+			<vbox>
+				<checkbox id="pref1" preference="wlPrefMenuEnabled" label="Show &quot;Add to Wishpot!&quot; in the Tools menu" />
+				<checkbox id="pref2" preference="wlPrefToolbarEnabled" label="Show &quot;Add to Wishpot!&quot; toolbar button" />
+				<checkbox id="pref3" preference="wlPrefStatusbarEnabled" label="Show &quot;Add to Wishpot!&quot; statusbar button" />
+			</vbox>
+			</hbox>
+	        </groupbox>  
+		</vbox>		
+
+	</prefpane>
+</prefwindow>
+
