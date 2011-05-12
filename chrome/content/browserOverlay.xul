@@ -4,7 +4,9 @@
 <?xml-stylesheet href="chrome://wishpot/content/wishlisting.css" type="text/css"?>
 
 <overlay id="wlOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	<script type="application/x-javascript" src="browserOverlay.js"/>  
+	
+  <script type="application/x-javascript" src="browserOverlay.js"/>  
+  <script type="application/x-javascript" src="browserOverlayCommon.js"/>
 	
 	<menupopup id="menu_ToolsPopup">
 		<menuitem id="wlMenuItem" image="chrome://wishpot/content/16x16.png" label="Add to Wishpot!" oncommand="wlAddToMyWishlist()" insertafter="devToolsSeparator" />
