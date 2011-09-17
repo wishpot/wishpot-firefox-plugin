@@ -60,7 +60,7 @@ function wlAddToMyWishlist() {
         if(typeof(o)!='object')
             o=content.document.standardCreateElement('script');
         
-        o.setAttribute('src','http://www.wishpot.com/scripts/bm.js?v=100');
+        o.setAttribute('src','//www.wishpot.com/scripts/bm.js?v=100');
         o.setAttribute('type','text/javascript');x.appendChild(o);
     }
 }
