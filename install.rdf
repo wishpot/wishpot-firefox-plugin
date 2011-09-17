@@ -5,10 +5,10 @@
   <RDF:Description RDF:about="rdf:#$qYswV2"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="1.5"
-                   em:maxVersion="4.*" />
+                   em:maxVersion="*" />
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="{DE2EB073-84DF-46aa-9A76-7B54C75366FA}"
-                   em:version="1.2"
+                   em:version="1.3"
                    em:type="2"
                    em:name="Wishpot"
                    em:description="'Add to Wishpot' button"
@@ -17,9 +17,8 @@
                    em:homepageURL="http://www.wishpot.com/"
                    em:iconURL="chrome://wishpot/content/32x32.png"
                    em:optionsURL="chrome://wishpot/content/extensionsOverlay.xul"
-                   em:updateURL="http://www.wishpot.com/firefox/update.rdf"
-                   em:updateInfoURL="http://www.wishpot.com/"
-                   em:updateKey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPnl3K/fjeUrq6gPkNUxqj30qiKI2/bViTFJOyFtY67XjnctHJf+Ien3wm0JDyRFFzqU8oZr9V4PjIVto3fzVPF6KAbTWLKUeNtZAVT5KIwKIz0c29yICdDJmERR3bY1DMDxDcYXCo37NcCEu6N0uCwYqPtqQqSTyNU2GksscKvQIDAQAB">
+                   em:updateURL="https://www.wishpot.com/firefox/update.rdf"
+                   em:updateInfoURL="http://www.wishpot.com/">
     <em:targetApplication RDF:resource="rdf:#$qYswV2"/>
   </RDF:Description>
 </RDF:RDF>
