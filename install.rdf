@@ -4,8 +4,8 @@
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="{DE2EB073-84DF-46aa-9A76-7B54C75366FA}"
-                   em:minVersion="4.0"
-                   em:maxVersion="6.*"
+                   em:minVersion="1.5"
+                   em:maxVersion="6.0.*"
                    em:version="1.4"
                    em:type="2"
                    em:name="Wishpot"
