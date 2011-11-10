@@ -5,11 +5,11 @@
   <RDF:Description RDF:about="rdf:#$kzvTA2"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="1.5"
-                   em:maxVersion="7.0.*" />
+                   em:maxVersion="9.0.*" />
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="{DE2EB073-84DF-46aa-9A76-7B54C75366FA}"
                    em:minVersion="1.5"
-                   em:maxVersion="7.0.*"
+                   em:maxVersion="9.0.*"
                    em:version="1.5"
                    em:type="2"
                    em:name="Wishpot"
